@@ -11,8 +11,9 @@ h1,h2,h3,h4,h5,h6{font-weight:700}
 .scroll-to-top{position:fixed;right:15px;bottom:15px;display:none;width:50px;height:50px;text-align:center;color:#fff;background:rgba(52,58,64,.5);line-height:45px}.scroll-to-top:focus,.scroll-to-top:hover{color:#fff}.scroll-to-top:hover{background:#343a40}.scroll-to-top i{font-weight:800}
 
 
-
-
+@media(max-width:992px){
+	.concept-setumei p{font-size:0.6rem;font-weight:400;line-height:0.5rem; }
+}
 
 
 #sidebar-wrapper{position:fixed;z-index:2;right:0;width:250px;height:100%;-webkit-transition:all .4s ease 0s;-moz-transition:all .4s ease 0s;-ms-transition:all .4s ease 0s;-o-transition:all .4s ease 0s;transition:all .4s ease 0s;transform:translateX(250px);background:#CFCFCF; rgba(255,255,255,.1)}
@@ -32,7 +33,7 @@ h1,h2,h3,h4,h5,h6{font-weight:700}
 .portfolio-item .caption{display:flex;height:100%;width:100%;background-color:;position:absolute;top:0;bottom:0;z-index:1}
 .portfolio-item .caption .caption-content{color:#fff;margin:auto 1rem 1rem}
 .portfolio-item .caption .caption-content h2{font-size:.8rem;text-transform:uppercase}
-.portfolio-item .caption .caption-content p{font-weight:500;font-size:0.6rem}
+.portfolio-item .caption .caption-content p{font-weight:500;font-size:0.5rem}
 
 .img-one{display:flex;height:auto;width:40vh;position:absolute;}
 
