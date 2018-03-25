@@ -40,11 +40,11 @@ h1,h2,h3,h4,h5,h6{font-weight:700}
 
 .portfolio-item{display:block;position:relative;overflow:hidden;max-width:530px;margin:auto auto 1rem}
 .portfolio-item .caption{display:flex;height:100%;width:100%;background-color:rgba(33,37,41,.2);position:absolute;top:0;bottom:0;z-index:1}
-.portfolio-item .caption .caption-content{color:#fff;margin:auto 2rem 2rem}
+.portfolio-item .caption .caption-content{color:#fff;margin:auto auto auto auto}
 .portfolio-item .caption .caption-content h2{font-size:.8rem;text-transform:uppercase}
 .portfolio-item .caption .caption-content p{font-weight:300;font-size:1.2rem}
 
-@media (min-width:992px){.portfolio-item{max-width:none;margin:0}.portfolio-item .caption{-webkit-transition:-webkit-clip-path .25s ease-out,background-color .7s;-webkit-clip-path:inset(0);clip-path:inset(0)}.portfolio-item .caption .caption-content{transition:opacity .25s;margin-left:5rem;margin-right:5rem;margin-bottom:5rem}.portfolio-item img{-webkit-transition:-webkit-clip-path .25s ease-out;-webkit-clip-path:inset(-1px);clip-path:inset(-1px)}.portfolio-item:hover img{-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}.portfolio-item:hover .caption{background-color:rgba(29,128,159,.9);-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}}
+@media (min-width:992px){.portfolio-item{max-width:none;margin:0}.portfolio-item .caption{-webkit-transition:-webkit-clip-path .25s ease-out,background-color .7s;-webkit-clip-path:inset(0);clip-path:inset(0)}.portfolio-item .caption .caption-content{transition:opacity .25s;margin-left:5rem;margin-right:5rem;margin-bottom:5rem}.portfolio-item img{-webkit-transition:-webkit-clip-path .25s ease-out;-webkit-clip-path:inset(-1px);clip-path:inset(-1px)}.portfolio-item:hover img{-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}.portfolio-item:hover .caption{background-color:rgba(26,26,26,1.00);-webkit-clip-path:inset(2rem);clip-path:inset(2rem)}}
 footer.footer{padding-top:5rem;padding-bottom:5rem}
 footer.footer .social-link{display:block;height:4rem;width:4rem;line-height:4.3rem;font-size:1.5rem;background-color:#A2A2A2;transition:background-color .15s ease-in-out;box-shadow:0 3px 3px 0 rgba(0,0,0,.1)}
 footer.footer .social-link:hover{background-color:#212121;text-decoration:none}a{color:#1d809f}a:active,a:focus,a:hover{color:#212121}
